@@ -18,21 +18,35 @@
 }
 
 .header__logo {
-  /* height: 100%; */
+  padding: 34px 0 0 40px;
 }
 
 .header__logo h1 {
+  position: relative;
   font-size: 25px;
+  line-height: 20px;
   color: #ffffff;
   font-family: "Lato";
   font-weight: 700;
   text-transform: uppercase;
 }
 
+.header__logo h1::after {
+  content: "\204e";
+  position: absolute;
+  top: 0;
+  right: -10px;
+  color: #f06c64;
+}
+
 .header__nav {
+  flex: 1;
+  max-width: 371px;
+  margin-right: 40px;
+  padding-top: 45px;
   list-style-type: none;
+
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -51,11 +65,63 @@
 
 
 
+
 .slider {
-  height: 600px;
+  position: relative;
+  height: 595px;
   background-color: #f06c64;
-  border-bottom: 15px solid #ea676b;
+  border-bottom: 5px solid #ea676b;
 }
+
+.slider__iphone-vertical-image {
+  position: absolute;
+  top: -18px;
+  left: 110px;
+  height: 579px;
+  width: 245px;
+
+  background: url('../img/iPhone Vertical.png');
+}
+
+.slider__iphone-horizontal-image {
+  position: absolute;
+  top: 68px;
+  left: 360px;
+  height: 355px;
+  width: 550px;
+
+  background: url('../img/iPhone Horizontal.png');
+}
+
+.slider__left-button {
+  position: absolute;
+  top: 280px;
+  left: 42px;
+  width: 16px;
+  height: 27px;
+  background: url("../../assets/img/left-button-slider.png");
+  cursor: pointer;
+}
+
+.slider__right-button {
+  position: absolute;
+  top: 280px;
+  right: 42px;
+  width: 16px;
+  height: 27px;
+  background: url("../../assets/img/right-button-slider.png");
+  cursor: pointer;
+}
+
+.slider__left-button:hover, .slider__right-button:hover {
+  transition: transform .3s ease-in;
+  transform: scale(1.5);
+}
+
+
+
+
+
 
 .services {
   height: 495px;
