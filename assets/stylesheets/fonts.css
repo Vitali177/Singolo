@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Lato-Light.ttf') format('ttf');
+}
