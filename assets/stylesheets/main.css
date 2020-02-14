@@ -32,7 +32,7 @@
 }
 
 .header__logo h1::after {
-  content: "\204e";
+  content: "*";
   position: absolute;
   top: 0;
   right: -10px;
@@ -43,7 +43,7 @@
   flex: 1;
   max-width: 371px;
   margin-right: 40px;
-  padding-top: 45px;
+  padding-top: 42px;
   list-style-type: none;
 
   display: flex;
@@ -58,8 +58,17 @@
   text-transform: uppercase;
 }
 
+.header__nav-item:hover {
+  color: #c4161c;
+}
+
 .header__nav-item--selected {
   color: #f06c64;
+}
+
+.header__nav-item a {
+  text-decoration: none;
+  color: inherit;
 }
 
 
@@ -114,7 +123,7 @@
 }
 
 .slider__left-button:hover, .slider__right-button:hover {
-  transition: transform .3s ease-in;
+  transition: transform .2s ease-in-out;
   transform: scale(1.5);
 }
 
@@ -127,4 +136,95 @@
   height: 495px;
   background-color: #f2f2f2;
   border-bottom: 6px solid #FFFFFF;
+}
+
+.services__heading {
+  padding: 68px 0 0 40px;
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+}
+
+.services__description {
+  margin: 28px 0 0 41px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+}
+
+.services__list {
+  margin-top: 45px;
+  padding: 0 41px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.services__list-item, .list-item {
+  height: 86px;
+  width: 299px;
+  margin-bottom: 39px;
+  display: flex;
+}
+
+.list-item__icon {
+  width: 59px;
+  height: 59px;
+}
+
+.list-item__icon.icon-pen {
+  background: url("../img/pen.png");
+  background-size: cover;
+}
+
+.list-item__icon.icon-bulb {
+  background: url("../img/bulb.png");
+  background-size: cover;
+}
+
+.list-item__icon.icon-heart {
+  background: url("../img/heart.png");
+  background-size: cover;
+}
+
+.list-item__icon.icon-phone {
+  background: url("../img/phone.png");
+  background-size: cover;
+}
+
+.list-item__icon.icon-bubble {
+  background: url("../img/bubble.png");
+  background-size: cover;
+}
+
+.list-item__icon.icon-star {
+  background: url("../img/star.png");
+  background-size: cover;
+}
+
+.list-item__desc {
+  flex: 1;
+}
+
+.list-item__desc h3 {
+  padding-left: 20px;
+  font-size: 19px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+}
+
+.list-item__desc p {
+  width: 100%;
+  padding: 10px 0 0 20px;
+  font-size: 13px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
 }
