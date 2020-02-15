@@ -122,9 +122,12 @@
   cursor: pointer;
 }
 
-.slider__left-button:hover, .slider__right-button:hover {
-  transition: transform .2s ease-in-out;
-  transform: scale(1.5);
+.slider__left-button:hover {
+  background: url("../../assets/img/left-button-slider--hover.png");
+}
+
+.slider__right-button:hover {
+  background: url("../../assets/img/right-button-slider--hover.png");
 }
 
 
