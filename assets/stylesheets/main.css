@@ -58,11 +58,23 @@
   text-transform: uppercase;
 }
 
-.header__nav-item:hover {
-  color: #c4161c;
+.header__nav-item a {
+  position: relative;
 }
 
-.header__nav-item--selected {
+.header__nav-item a::before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 3px;
+  left: -15px;
+  top: 7px;  
+  border-radius: 50%;
+  background-color: #404455;
+}
+
+.header__nav-item a:hover {
+  position: static;
   color: #f06c64;
 }
 
