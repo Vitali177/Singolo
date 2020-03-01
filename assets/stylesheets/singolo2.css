@@ -75,6 +75,8 @@
 
 .portfolio__projects {
   padding-top: 18px;
+  overflow: hidden;
+  max-height: 615px;
 }
 
 .portfolio__projects-row {
