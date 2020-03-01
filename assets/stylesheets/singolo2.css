@@ -194,6 +194,10 @@
   color: #666d89;
   font-family: "Lato";
   font-weight: 900;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
 }
 
 .about-us__worker-desc p {
