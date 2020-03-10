@@ -451,6 +451,8 @@
   color: #767e9e;
   font-family: "Lato";
   font-weight: 400;
+  letter-spacing: -0.05px;
+  word-spacing: 0.2px;
 }
 
 .about-us__worker-social-links {
