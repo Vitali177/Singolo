@@ -154,12 +154,13 @@
 
 .services {
   height: 494px;
+  padding: 0 40px;
   background-color: #f2f2f2;
   border-bottom: 6px solid #FFFFFF;
 }
 
 .services__heading {
-  padding: 68px 0 0 40px;
+  padding-top: 68px;
   font-size: 30px;
   line-height: 18px;
   color: #666d89;
@@ -168,17 +169,17 @@
 }
 
 .services__description {
-  margin: 28px 0 0 41px;
+  margin-top: 28px;
   font-size: 18px;
   line-height: 30px;
   color: #767e9e;
-  font-family: "Lato";
+  font-family: "Lato Light", sans-serif;
   font-weight: 300;
+  text-align: justify;
 }
 
 .services__list {
   margin-top: 45px;
-  padding: 0 41px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -271,11 +272,11 @@
 }
 
 .section-header p {
-  margin-top: 31px;
+  margin-top: 28px;
   font-size: 18px;
   line-height: 30px;
   color: #767e9e;
-  font-family: "Lato";
+  font-family: "Lato Light", sans-serif;
   font-weight: 300;
   text-align: justify;
 }
@@ -403,7 +404,7 @@
 }
 
 .about-us__workers {
-  margin-top: 42px;
+  margin-top: 45px;
   display: flex;
   justify-content: space-between;
 }
@@ -502,7 +503,7 @@
   font-size: 18px;
   line-height: 30px;
   color: #f0d8d9;
-  font-family: "Lato";
+  font-family: "Lato Light", sans-serif;
   font-weight: 300;
 }
 
@@ -588,7 +589,7 @@
   font-size: 12px;
   line-height: 22px;
   color: #f0d8d9;
-  font-family: "Lato";
+  font-family: "Lato Light", sans-serif;
   font-weight: 400;
   word-break: break-all;
 }
@@ -612,7 +613,7 @@
   font-size: 12px;
   line-height: 22px;
   color: #f0d8d9;
-  font-family: "Lato";
+  font-family: "Lato Light", sans-serif;
   font-weight: 400;
 }
 
