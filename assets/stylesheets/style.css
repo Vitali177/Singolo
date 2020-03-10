@@ -613,13 +613,14 @@
   width: 12px;
 }
 
-.contacts__item p {
+.contacts__item a {
   padding: 0 0 0 10px;
   font-size: 12px;
   line-height: 22px;
   color: #f0d8d9;
   font-family: "Lato Light", sans-serif;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .location .image {
