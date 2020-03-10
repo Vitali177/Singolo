@@ -560,7 +560,7 @@
   resize: none;
 }
 
-.form input[type="button"] {
+.form input[type="submit"] {
   height: 30px;
   width: 90px;
   margin: 10px auto;
@@ -571,7 +571,7 @@
   cursor: pointer;
 }
 
-.form input[type="button"]:hover {
+.form input[type="submit"]:hover {
   border: 1px solid #f0d8d9;
   box-shadow: none;
 }
