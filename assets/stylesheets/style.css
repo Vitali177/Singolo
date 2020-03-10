@@ -229,10 +229,10 @@
 
 .list-item__desc {
   flex: 1;
+  margin-left: 20px;
 }
 
 .list-item__desc h3 {
-  padding-left: 20px;
   font-size: 19px;
   line-height: 18px;
   color: #666d89;
@@ -241,13 +241,17 @@
 }
 
 .list-item__desc p {
-  padding: 10px 0 0 20px;
+  max-width: 220px;
+  max-height: 64.8px;
+  padding-top: 10px;
   font-size: 12px;
   line-height: 22px;
   color: #767e9e;
   font-family: "Lato";
   font-weight: 400;
   text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Second Part */
