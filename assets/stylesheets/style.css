@@ -241,13 +241,13 @@
 }
 
 .list-item__desc p {
-  width: 100%;
   padding: 10px 0 0 20px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 22px;
   color: #767e9e;
   font-family: "Lato";
   font-weight: 400;
+  text-align: justify;
 }
 
 /* Second Part */
